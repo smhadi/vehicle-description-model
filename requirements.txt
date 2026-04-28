@@ -1,2 +1,29 @@
-openai
-pathlib
+
+# Cross-Camera Vehicle ReID — Requirements
+# Install with: pip install -r requirements.txt
+
+# Core API client (for vLLM OpenAI-compatible endpoint)
+openai>=1.0.0
+
+# Data processing
+pandas>=2.0.0
+numpy>=1.24.0
+
+# Visualization and evaluation
+matplotlib>=3.7.0
+seaborn>=0.12.0
+
+# Notebook support
+jupyter>=1.0.0
+ipykernel>=6.0.0
+ipython>=8.0.0
+
+# Image handling
+Pillow>=10.0.0
+
+# Utilities
+pathlib2>=2.3.0
+tqdm>=4.65.0
+
+# Reproducibility — pin vLLM version used for inference
+# vllm>=0.4.0  # Install separately on GPU machine only
