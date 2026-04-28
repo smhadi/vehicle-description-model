@@ -1,0 +1,7 @@
+images/
+results/
+*.csv
+*.log
+__pycache__/
+.env
+*.pyc
